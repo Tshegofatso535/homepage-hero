@@ -154,3 +154,55 @@ p{
   text-align: center;
   padding: 0;
 }
+
+nav{
+  padding:20px 0;
+}
+
+
+
+nav li{
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a:hover{
+
+  color: var(--branding-color);
+}
+
+
+nav a {
+text-decoration: none;
+color: #272142;
+transition: all 100ms ease-in-out;
+
+}
+
+.justify-content-between{
+  justify-content:space-between;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.logo{
+  max-height: 40px;
+  
+}
+ 
+nav ul{
+  padding: 0;
+  margin: 0;
+}
+
+.d-block{
+  display: block;
+}
+
+.d-none{
+  display: none;
+}
